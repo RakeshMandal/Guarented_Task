@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    margin: 5rem 0;
+    text-align: center;
+}
+.thumbnail-container {
+    display: inline-block;
+    margin: 2rem;
+  }
+  .uploadImages{
+    padding-bottom: 2rem;
+  }
+  #uploadInput{
+    display: none;
+  }
+  .thumbnail {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  .custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #e0e0e0;
+  }
+  
